@@ -10,10 +10,8 @@
 
 @interface makeGun : basePotato
 
-{
-    BOOL doesFitInGunBarrel;
-}
 
+@property int extraThatCanBeCramedInBarrel;
 @property float potatoesThatFit;
 
 

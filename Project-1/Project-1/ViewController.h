@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "potatoFactory.h"
 
 @interface ViewController : UIViewController
 

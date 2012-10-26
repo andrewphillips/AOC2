@@ -28,11 +28,11 @@
 -(void)calculateRateOfFire
 {
     if (levelOfButter == LIGHT){
-        [self setHowManyPotatoes:(howManyPotatoes + 1 + (butterSticks * 20 - levelOfGooey + 1))];
+        [self setHowManyPotatoes:(howManyPotatoes + 1 + (butterSticks * 20 - levelOfGooey))];
     } else if (levelOfButter == NORMAL){
-        [self setHowManyPotatoes:(howManyPotatoes - 1 + (butterSticks * 1 - levelOfGooey * 1))];
+        [self setHowManyPotatoes:(howManyPotatoes - 1 + (butterSticks * 1 - levelOfGooey))];
     } else if (levelOfButter == HEAVY){
-        [self setHowManyPotatoes:(howManyPotatoes + 10 - (butterSticks * 1 - levelOfGooey + 0))];
+        [self setHowManyPotatoes:(howManyPotatoes + 10 - (butterSticks * 1 - levelOfGooey))];
     } else {
     NSLog(@"These potatoes are too amazing!  Yet, we still need ammo");
     }
