@@ -10,4 +10,22 @@
 
 @implementation makeGun
 
+
+@synthesize howManyPotatoes, doesFitInGunBarrel, potatoesThatFit;
+
+-(id)init
+{
+    self = [super init]
+    if (self != nil)
+    {
+        [self setHowManyPotatoes:100];
+        [self setPotatoesThatFit:4];
+        
+    }
+    
+}
+
+
+
+
 @end

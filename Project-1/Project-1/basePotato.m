@@ -18,9 +18,9 @@
     self = [super init];
     if (self != nil)
     {
-        [self howManyPotatoes:500];
-        [self whichPotatoType:nil];
-        [self whatWillIDoWithPotatoes:nil];
+        [self setHowManyPotatoes:500];
+        [self setWhichPotatoType:nil];
+        [self setWhatWillIDoWithPotatoes:nil];
     }
     return self;
 }

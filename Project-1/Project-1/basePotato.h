@@ -20,7 +20,7 @@ typedef enum {
 } potatoEnum;
 
 
-@property int *howManyPotatoes;
+@property int howManyPotatoes;
 @property NSString *whichPotatoType;
 @property NSString *whatWillIDoWithPotatoes;
 

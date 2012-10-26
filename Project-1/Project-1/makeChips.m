@@ -17,10 +17,10 @@
     self = [super init];
     if (self != nil)
     {
-        [self howManyPotatoes:200];
-        [self fryerTempF:442];
-        [self howManyBlades:1];
-        [self howManyMashers:1];
+        [self setHowManyPotatoes:200];
+        [self setFryerTempF:442];
+        [self setHowManyBlades:1];
+        [self setHowManyMashers:1];
     }
     return self;
     
@@ -28,7 +28,7 @@
 
 -(void)calculateRateOfFire
 {
-    [self determineHowManyPotatoes:(howManyPotatoes + (fryerTempF * howManyBlades) + howManyMashers)];
+    [self setHowManyPotatoes:(howManyPotatoes + (fryerTempF * howManyBlades) + howManyMashers)];
     NSLog(@"Because I have %i potato chips, I'll have a high rate of fire from my potato gun!", self.howManyPotatoes);
 }
 

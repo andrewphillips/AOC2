@@ -11,17 +11,19 @@
 @interface makeMashed : basePotato
 
 {
-    int launcherSize;
+    int levelOfButter;
 }
 
 typedef enum {
-    SHORT-BARREL,
-    MEDIUM-BARREL,
-    LONG-BARREL
-} launcherSize;
+    LIGHT,
+    NORMAL,
+    HEAVY,
+} levelOfButter;
 
 
-
+@property int butterSticks;
+@property float levelOfGooey;
+@property NSString *declarationOfDeliciousness;
 
 
 @end

@@ -10,4 +10,11 @@
 
 @interface makeGun : basePotato
 
+{
+    BOOL doesFitInGunBarrel;
+}
+
+@property float potatoesThatFit;
+
+
 @end
