@@ -10,4 +10,18 @@
 
 @interface makeMashed : basePotato
 
+{
+    int launcherSize;
+}
+
+typedef enum {
+    SHORT-BARREL,
+    MEDIUM-BARREL,
+    LONG-BARREL
+} launcherSize;
+
+
+
+
+
 @end

@@ -15,9 +15,18 @@
 
 typedef enum {
     CHIPS,
-    MASHED-POTATOES,
+    MASHED,
     GUN,
 } potatoEnum;
+
+
+@property int *howManyPotatoes;
+@property NSString *whichPotatoType;
+@property NSString *whatWillIDoWithPotatoes;
+
+-(id)init;
+
+-(void)calculateRateOfFire;
 
 
 

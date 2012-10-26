@@ -10,4 +10,8 @@
 
 @interface makeChips : basePotato
 
+@property int fryerTempF;
+@property int howManyBlades;
+@property int howManyMashers;
+
 @end
