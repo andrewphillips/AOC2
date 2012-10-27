@@ -12,7 +12,13 @@
 
 +(basePotato *)createNewPotatoThing: (int)potatoType;
 {
-    return [[makeChips alloc] init];
+    if (potatoType == CHIPS) {
+        return [[makeChips alloc] init];
+    } else if (potatoType == MASHED) {
+        return [[makeMashed alloc] init];
+    } else if (potatoType == GUN){
+        return [[makeGun alloc] init];
+    } else return nil;
 }
 
 @end

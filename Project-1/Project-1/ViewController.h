@@ -11,4 +11,13 @@
 
 @interface ViewController : UIViewController
 
+{
+    UILabel *potatoChipsLabel;
+    UILabel *potatoChipsLabel2nd;
+    UILabel *mashedPotatoLabel;
+    UILabel *mashedPotatoLabel2nd;
+    UILabel *potatoGunLabel;
+    UILabel *potatoGunLabel2nd;
+    
+}
 @end

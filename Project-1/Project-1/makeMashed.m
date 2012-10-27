@@ -21,7 +21,7 @@
         [self setButterSticks:10];
         [self setLevelOfGooey:0];
         [self setDeclarationOfDeliciousness:@""];
-        NSLog(@"These are the best mashed potatoes ever!  I shall not load them in the potato-gun!");
+        NSLog(@"These are the best mashed potatoes ever!  I shall not load them in the potato gun, but eat them!");
     }
     return self;
 }
